@@ -1,0 +1,14 @@
+After reading the README file, try to request this file to the server by using the client application.
+
+Start the server:
+	Go to the server folder using a terminal and type: 
+		"python3 server.py [port number]"
+	without the quotes.
+The server will print its IP address.
+
+Start the client:
+	Using a different terminal, go to the client's folder and type:
+		"python3 client.py [IP printed by server] [portNumber] "example.txt""
+
+You should now be able to see a copy of this file in your client's folder and details of the file transaction on both terminals.
+	
